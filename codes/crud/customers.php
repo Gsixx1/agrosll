@@ -24,8 +24,8 @@ $data = mysqli_num_rows($select_q);
             <tr class="text-center h5" >
                 <th>Customer Name</th>
                 <th>Business Title</th>
-                <th>Customer Photo</th>
-                <th>Operation</th>
+                <!-- <th>Customer Photo</th> -->
+                <!-- <th>Operation</th> -->
                 <th>Delete pad</th>
             </tr>
             <?php
@@ -36,9 +36,9 @@ $data = mysqli_num_rows($select_q);
                     <tr>
                         <td><?php echo $row['customer_name'] ?></td>
                         <td><?php echo $row['business_name'] ?></td>
-                        <td class="text-center" ><img src="images/<?php echo $row['customer_image'] ?>" alt="" width="120px"></td>
-                        <td class="text-center" ><button type="button" class="btn btn-secondary"><a class="text-light text-decoration-none" href="edit.php? id=<?php echo $row['customerID'] ?>">Edit</a></button></td>
-                        <td class="text-center" ><button type="button" class="btn btn-danger"><a class="text-light text-decoration-none" onclick="return confirm('Are you sure you want to delete?')" href="delete.php? id=<?php echo $row['customerID'] ?>">Delete</a></button></td>
+                        <!-- <td class="text-center" ><img src="images/<?php echo $row['customer_image'] ?>" alt="" width="120px"></td> -->
+                        <!-- <td class="text-center" ><button type="button" class="btn btn-secondary"><a class="text-light text-decoration-none" href="edit.php? id= <?php echo $row['id'] ?>--><!--">Edit</a></button></td> -->
+                        <td class="text-center" ><button type="button" class="btn btn-danger"><a class="text-light text-decoration-none" onclick="return confirm('Are you sure you want to delete?')" href="delete.php? id=<?php echo $row['id'] ?>">Delete</a></button></td>
                     </tr>
             <?php
                 }

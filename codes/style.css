@@ -85,7 +85,7 @@ body {
     background-repeat:no-repeat;
     background-origin: center;
     background-size: cover;
-    /* background-color:; */
+    /* background-color: blue; */
 }
 .f-mid-nav {
     display: flex;
@@ -94,6 +94,9 @@ body {
     /* background-color: blue; */
     width: 30%;
     padding-top: 1.5%;
+}
+.f-mid-nav-items a{
+    color: #000000;
 }
 
 .nav .first-nav-bar ul {
@@ -125,6 +128,7 @@ body {
     position: relative;
     text-align: center;
     margin-bottom: 0px;
+    color: #000000;
     
 }
 .tabHover a::before {
@@ -201,86 +205,7 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
 }
-/* @media only screen and (max-width: 768px) {
-    .nav {
-        display: none;
-    }
-    .first-nav-bar {
-        display: none;
-    }
-    .second-nav-bar {
-        display: none;
-    }
-    .toggle-button {
-        display: block;
-    }
-    .toggle-button .bar {
-        width: 100%;
-        height: 3px;
-        background-color: #d61313;
-        border-radius: 10px;
-    }
-} */
-/* @media  (max-width: 400px){
-    .toggle-button{
-        display: flex;
-    }
-    .second-nav-bar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .second-nav-bar ul {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-} *//*
-@media only screen and (max-width: 768px) {
-    .nav {
-        padding: 0;
-    }
-    .logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .lang-menu, 
-    .f-mid-nav,
-    .tabHover,
-    .second-nav-bar {
-        flex-direction: column;
-        width: 100%;
-        height:100vh; 
-        justify-content: center; 
-        
-        border-top: 3px solid #fffb0b;
-    }
-    .second-nav-bar {
-        height: 50vh;
-        align-items: center;
-        justify-content: space-evenly;
-        height: 80vh;
-    }
-    .second-nav-bar > *{
-        flex-basis: 100%;
-    }
-    .second-nav-bar ul {
-        margin: 0 auto;
-        margin-bottom: 2em;
-        border: 2px solid yellow;
-    }  
-    .second-nav-bar ul li {
-        /* margin: 0 auto; 
-        width: 50%;
-        text-align: center;
-        justify-content: center;
-        column-gap: 20px;
-        align-items: center;
-        flex-direction: column;
-        /* display: inline-block; */
-        /* border: 2px solid #fffb0b;
-    }                        
-}  */
+
 @media only screen and (max-width: 1247px){
     #first-cards{
         height: 100%;
@@ -329,11 +254,18 @@ body {
     justify-content: center;
     text-align: center;
 }
+.wrapper2 P {
+    font-family: Barlow;
+    font-weight: 600;
+}
+.wrapper2 h2 {
+    font-family: Amatic;
+}
 .wrapper2 img {
     height: 120px;
 }
 .banner-area {
-    background-image: url(/resources/2nd-plant.jpg);
+    background-image: url(/resources/banner.jpg);
     background-size: cover;
     background-position: center center;
     /* top: 70px; */
@@ -650,6 +582,8 @@ p .c3 {
     padding-top: 1%;
     padding-left: .02%;
     padding-right: .02%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .tcc1,
 .tcc2,
@@ -722,7 +656,46 @@ p .c3 {
 
 .i {
     height: 100%;
-    background-image: url(/resources/pngss/best-organic-fertilizers-granular-2x.jpg);
+    background-image: url(/resources/pngss/insurance.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 28vh;
+    /* background-color: blue; */
+}
+.i1 {
+    height: 100%;
+    background-image: url(/resources/pngss/yield.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 28vh;
+    /* background-color: blue; */
+}
+.i2 {
+    height: 100%;
+    background-image: url(/resources/pngss/fertilizer.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 28vh;
+    /* background-color: blue; */
+}
+.i3 {
+    height: 100%;
+    background-image: url(/resources/pngss/irrigation.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -736,7 +709,7 @@ p .c3 {
 
 #fourth-cards {
     background-color: #FFFFFF;
-    height: 100%;
+    height: 120vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -836,14 +809,14 @@ p .c3 {
 
 #footer {
     background-color: rgb(64, 74, 61);
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     /* flex-flow: row wrap; */
     padding: auto 3%;
-    bottom: 0;
+    bottom: 25px;
 }
 
 .footer-first-row {
@@ -865,8 +838,12 @@ p .c3 {
 .footer-fstrow-column4,
 .footer-fstrow-column5 {
     width: 16vw;
-    height: 43vh;
+    height: 38vh;
     /* border: 1px solid gold; */
+}
+.footer-services {
+    width: 15.5vw;
+    height: 42.5vh;
 }
 
 .footer-fstrow-column1 {
@@ -881,26 +858,39 @@ p .c3 {
 /* }  */
 .fterpc1 {
     width: 15.9vw;
-    height: 42.6vh;
+    height: 37.6vh;
+    padding-top: 0;
     /* border: 2px solid; */
+}
+.fterpc1 span {
+    margin-top: -15px;
+}
+
+.ftheads{
+    color: #ffffff;
+    font-family: Amatic SC;
+    font-weight: normal;
+    font-size: 9vmin;
 }
 .fterpc1 span,
 .fterpc2 span,
-.fterpc3 span h5,
-.footer-company span h5,
-.footer-address span{
+.fterpc3 span,
+.fterpc4 span,
+.fterpc5 span
+{
     color: #ffffff;
     font-family: Amatic SC;
     font-weight: normal;
     font-size: 4vmin;
 }
 
-.fterpc1p,
+.fterpc1 p,
 .fterpc2 li,
 .fterpc3 li,
 .footer-company li,
 .footer-address li{
     font-size: 2.2vmin;
+    color: rgb(14, 17, 14);
 }
 /* .footer-fstrow-column1, */
 .fterpc1 p {
@@ -910,15 +900,9 @@ p .c3 {
     font-family: Barlow;
 }
 
-.footer-fstrow-column2 {
-    /* background-color: rgb(255, 255, 255); */
-    /* border: 2px solid rgb(98, 209, 34); */
-    height: 43vh;
-}
-
 .fterpc2 {
     width: 15.8vw;
-    height: 42.6vh;
+    height: 37.6vh;
     /* border: 2px solid; */
 }
 .fterpc2 h5{
@@ -928,9 +912,7 @@ p .c3 {
     font-size: 2em;
     padding-left: 14%;
 }
-/* .footer-fstrow-column2, */
 .fterpc2 p {
-    /* background-color:rgb(75, 145, 75); */
     color: #000000;
     font-weight: 600;
     font-family: Barlow;
@@ -959,7 +941,7 @@ p .c3 {
 
 .fterpc3 {
     width: 15.8vw;
-    height: 42.6vh;
+    height: 37.6vh;
     /* border: 2px solid; */
 }
 .fterpc3 h5 {
@@ -996,7 +978,7 @@ p .c3 {
 
 .fterpc4 {
     width: 15.8vw;
-    height: 42.6vh;
+    height: 37.6vh;
     /* border: 2px solid; */
 }
 .fterpc4 h5 {
@@ -1027,7 +1009,7 @@ p .c3 {
 
 .fterpc5 {
     width: 15.8vw;
-    height: 42.6vh;
+    height: 37.6vh;
     /* border: 2px solid; */
 }
 .fterpc5 h5 {
@@ -1048,7 +1030,10 @@ p .c3 {
     font-weight: bold;
     color: #000000;
 }
-
+.fterms p:hover,
+.fterpc2 li:hover,
+.fterpc3 li:hover,
+.fterpc4 li:hover,
 .fterpc5 li:hover{
     color: darkgoldenrod;
     cursor: pointer;
@@ -1064,7 +1049,7 @@ p .c3 {
     /* justify-content: center;  */
     /* margin: 5%; */
     /* margin-top: 0%; */
-    height: 15vh;
+    height: 7vh;
     width: 100%;
     padding: 0 2%;
 }
@@ -1090,6 +1075,7 @@ p .c3 {
     height: 5vh;
 }
 
+.fterms p,
 .footer-secrow-column1 p {
     /* background-color: rgb(163, 163, 196); */
     text-align: center;
@@ -1102,6 +1088,7 @@ p .c3 {
     /* display: flex;    
     flex-flow: row wrap; */
 }
+
 
 .fsecrow2 {
     height: 10vh;
@@ -1131,7 +1118,7 @@ p .c3 {
     /* background-color: rgb(163, 163, 196); */
     text-align: center;
     width: 20vw;
-    height: 30vh;
+    height: 5vh;
     line-height: 3vh;
     padding: auto;
 
@@ -1159,19 +1146,19 @@ p .c3 {
     /* background-color:green; */
     /* border: 2px solid rgb(239, 243, 7); */
     height: 5vh;
+    width: 100%;
 }
 
 .fterms p {
+    /* border: 2px solid; */
     /* justify-content: center; */
     line-height:2vh;
     text-align: center;
     list-style: none;
     color: #FFFFFF;
     /* background-color: rgb(10, 173, 173); */
-    width: 30%;
-    height: 80%;
-    display: flex;
-    flex-direction: row;
+    width: 90%;
+    height: 100%;
 }
 .accept-terms{
     display: flex;
@@ -1181,10 +1168,15 @@ p .c3 {
     padding-bottom: 1%;
     /* border: 2px solid; */
 }
+.footericon img{
+    height: 3.5vh;
+}
+
 #signup-chkbox {
     margin-top: 1%;
 }
 .contact-banner {
+    padding-top: 50px;
     height: 85vh;
     width: 100%;
     background-image: url(/resources/farm-land-sun.jfif);
@@ -1195,6 +1187,10 @@ p .c3 {
     /* margin-top: -25px; */
     /* position: scroll center; */
     background-repeat: no-repeat;
+}
+
+.contact-banner p {
+    margin-bottom: 0;
 }
 
 #main-contact-field {
@@ -1313,12 +1309,12 @@ p .c3 {
     margin-right: 49%;
 }
 .contact-col2 {
-    background-color: rgba(245, 250, 244, 0.8);
+    background-color: rgb(160, 217, 149);
     border-radius: 5px;
     height: 85vh;
     width: 68%;
     /* border: 2px solid gold; */
-    padding: 2% 2%;
+    padding: 2% 2%;    
 }
 
 .contact-form {
@@ -1326,7 +1322,7 @@ p .c3 {
     width: 100%;
     /* border: 2px solid black; */
     padding-left: 9%;
-    padding-right: 0%;
+    padding-right: 0%;    
 }
 
 .frm-heading{
@@ -1790,4 +1786,41 @@ fieldset {
     border-radius: 5px;
     font-size: 20px;
     padding-bottom: 2%;
+}
+.prdcrud_body {
+    z-index: -1;
+}
+
+#cardrow3 {
+    z-index: -1;
+    height: 50vh;
+    text-align: center;
+}
+#about-inner-banner {
+    background-color:rgb(205, 240, 234, .8) ;
+}
+#crudrow0 {
+    /* border: 2px solid; */
+}
+#crudrow1 {
+    /* border: 2px solid yellow; */
+}
+#crudrow2 {
+    /* border: 2px solid rgb(0, 68, 255); */
+    text-align: center;
+    justify-content: center;
+    padding-top: 2.5em;
+    padding-bottom: 0;
+}
+.col-md-4 {
+    /* z-index: -1; */
+    /* border: 2px solid; */
+    justify-content:center;
+    text-align: center;
+    position: relative;
+}
+.allcrud {
+    z-index: -1;
+    /* border: 2px solid; */
+    position: relative;
 }

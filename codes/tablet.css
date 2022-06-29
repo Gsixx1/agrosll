@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1024px) {
+    .third-cards-card1,
+    .third-cards-card2,
+    .third-cards-card3,
+    .third-cards-card4 {
+        height: 60vh;
+        width: 40vh;
+        padding-top: 1%;
+        padding-left: .02%;
+        padding-right: .02%;
+        margin-left: 15px;
+    }
+}

@@ -14,7 +14,7 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/codes/bootstrap-5/css/animate.min.css">
-  <title>agrosl</title>
+  <title>Blog</title>
 
   <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
   
@@ -191,38 +191,22 @@
                 href="tel:+23276458340" style="list-style:none; text-decoration:none;">+232-76-458-340</a></p>
           </div>
         </div>
-        <!-- sizes="(max-width: 780px) 117px, 201px"
-          srcset="/resources/logo.png 127w, /resources/logo.png 200w" -->
-        <!-- <button class="nvbar-tgler" type="button">
-          <span class="icon"></span>
-        </button> -->
         <div class="tabHover">
           <ul>
             <li><a href="../products.php">Products</a></li>
-            <li><a href="topheadercomponents/businesses.php">Businesses</a></li>
+            <!-- <li><a href="topheadercomponents/businesses.php">Businesses</a></li> -->
           </ul>
         </div>
       </div>
       <div class="second-nav-bar">
-        <!-- <a href="" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a> -->
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="service.php">Services</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="contact.php">Contact us</a></li>
-          <li><a href="signup.php">Sign up</a></li>
-          <li><a href="login.php">Log in</a></li>
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="#third-cards">Services</a></li>
+          <li><a href="../about.php">About</a></li>
+          <li><a href="../contact.php">Contact us</a></li>
+          <!-- <li><a href="../signup.php">Sign up</a></li>
+          <li><a href="../login.php">Log in</a></li> -->
         </ul>
-
-        <!-- <div class="wrapper">
-          <div class="Line-menu half start"></div>
-          <div class="Line-menu"></div>
-          <div class="Line-menu half end"></div>
-        </div> -->
         <div class="lang-menu">
           <select name="dropdown" id="">
             <option value="English" selected>English</option>
@@ -236,115 +220,29 @@
   <!-- MAIN CONTAINER! -->
 
   
-    <div class="container">
-          <header class="blog-header py-3">
-              <div class="row flex-nowrap justify-content-between align-items-center">
-                  <div class="col-4 pt-1">
-                      <a class="link-secondary" href="#">Subscribe</a>
-                  </div>
-                  <div class="col-4 text-center">
-                      <a class="blog-header-logo text-dark" href="#">Large</a>
-                  </div>
-                  <div class="col-4 d-flex justify-content-end align-items-center">
-                      <a class="link-secondary" href="#" aria-label="Search">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
-                              viewBox="0 0 24 24">
-                              <title>Search</title>
-                              <circle cx="10.5" cy="10.5" r="7.5" />
-                              <path d="M21 21l-5.2-5.2" />
-                          </svg>
-                      </a>
-                      <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-                  </div>
-              </div>
-          </header>
+    <div class="container">                  
   
-          <div class="nav-scroller py-1 mb-2">
-              <nav class="nav d-flex justify-content-between">
-                  <a class="p-2 link-secondary" href="#">World</a>
-                  <a class="p-2 link-secondary" href="#">U.S.</a>
-                  <a class="p-2 link-secondary" href="#">Technology</a>
-                  <a class="p-2 link-secondary" href="#">Design</a>
-                  <a class="p-2 link-secondary" href="#">Culture</a>
-                  <a class="p-2 link-secondary" href="#">Business</a>
-                  <a class="p-2 link-secondary" href="#">Politics</a>
-                  <a class="p-2 link-secondary" href="#">Opinion</a>
-                  <a class="p-2 link-secondary" href="#">Science</a>
-                  <a class="p-2 link-secondary" href="#">Health</a>
-                  <a class="p-2 link-secondary" href="#">Style</a>
-                  <a class="p-2 link-secondary" href="#">Travel</a>
-              </nav>
-          </div>
-  
-          <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+          <div class="p-4 p-md-5 mb-4 text-white rounded bg-success">
               <div class="col-md-6 px-0">
-                  <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+                  <h1 class="display-4 font-italic">Agriculture, the driving force of the lively hood of Sierra Leoneans</h1>
                   <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
                       efficiently about what’s most interesting in this post’s contents.</p>
                   <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
               </div>
           </div>
   
-          <div class="row mb-2">
-              <div class="col-md-6">
-                  <div
-                      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-primary">World</strong>
-                          <h3 class="mb-0">Featured post</h3>
-                          <div class="mb-1 text-muted">Nov 12</div>
-                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                              lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
-                      </div>
-                      <div class="col-auto d-none d-lg-block">
-                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img"
-                              focusable="false">
-                              <title>Placeholder</title>
-                              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                  dy=".3em">Thumbnail</text>
-                          </svg>
-  
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <div
-                      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-success">Design</strong>
-                          <h3 class="mb-0">Post title</h3>
-                          <div class="mb-1 text-muted">Nov 11</div>
-                          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                              additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
-                      </div>
-                      <div class="col-auto d-none d-lg-block">
-                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img"
-                              focusable="false">
-                              <title>Placeholder</title>
-                              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                  dy=".3em">Thumbnail</text>
-                          </svg>
-  
-                      </div>
-                  </div>
-              </div>
-          </div>
+         
       </div>
   
       <main class="container">
           <div class="row">
               <div class="col-md-8">
                   <h3 class="pb-4 mb-4 font-italic border-bottom">
-                      From the Firehose
+                      From the FarmHouse
                   </h3>
   
                   <div class="blog-post">
-                      <h2 class="blog-post-title">Sample blog post</h2>
+                      <h2 class="blog-post-title">Sierra Leone vs its Neigbours in the Agric-sector</h2>
                       <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
   
                       <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap.
@@ -430,54 +328,115 @@
                       <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
                   </nav>
   
-              </div>
-  
-              <aside class="col-md-4">
-                  <div class="p-4 mb-3 bg-light rounded">
-                      <h4 class="font-italic">About</h4>
-                      <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur
-                          purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                  </div>
-  
-                  <div class="p-4">
-                      <h4 class="font-italic">Archives</h4>
-                      <ol class="list-unstyled mb-0">
-                          <li><a href="#">March 2014</a></li>
-                          <li><a href="#">February 2014</a></li>
-                          <li><a href="#">January 2014</a></li>
-                          <li><a href="#">December 2013</a></li>
-                          <li><a href="#">November 2013</a></li>
-                          <li><a href="#">October 2013</a></li>
-                          <li><a href="#">September 2013</a></li>
-                          <li><a href="#">August 2013</a></li>
-                          <li><a href="#">July 2013</a></li>
-                          <li><a href="#">June 2013</a></li>
-                          <li><a href="#">May 2013</a></li>
-                          <li><a href="#">April 2013</a></li>
-                      </ol>
-                  </div>
-  
-                  <div class="p-4">
-                      <h4 class="font-italic">Elsewhere</h4>
-                      <ol class="list-unstyled">
-                          <li><a href="#">GitHub</a></li>
-                          <li><a href="#">Twitter</a></li>
-                          <li><a href="#">Facebook</a></li>
-                      </ol>
-                  </div>
-              </aside>
+              </div> 
+              
   
           </div><!-- /.row -->
   
       </main><!-- /.container -->
-  
-      <footer class="blog-footer">
-          <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
-                  href="https://twitter.com/mdo">@mdo</a>.</p>
-          <p>
-              <a href="#">Back to top</a>
-          </p>
-      </footer>
-  
+      <section id="footer">
+      <div class="footer-first-row">
+        <div class="footer-fstrow-column1">
+          <div class="fterpc1">
+            <p><span>AGROSL</span></p>
+            <hr
+              style="width:30px; margin-left:25px; margin-top:0px; height:5px; border-radius: 5px; background-color:rgb(255, 225, 0)">
+            <P class="fterpc1p">Eiusmod dolore sit mollit dolor culpa dolore labore amet occaecat ea.</P>
+          </div>
+        </div>
+        <div class="footer-fstrow-column2">
+          <div class="footer-services">
+            <div class="fterpc2">
+              <p><span>SERVICES</span></p>
+              <hr
+                style="width:30px; margin-left:25px; margin-top:0px; height:5px; border-radius: 5px; background-color:#EDDD5E;">
+              <ul>
+                <li>Agro data collection</li>
+                <li>Agro weather forecast</li>
+                <li>Agricultural Agents</li>
+                <li>Agro Mapping</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-fstrow-column3">
+          <div class="footer-products">
+            <div class="fterpc3">
+              <p><span>PRODUCTS</span></p>
+              <hr
+                style="width:30px; margin-left:25px; margin-top:0px; height:5px; border-radius: 5px; background-color:#EDDD5E;">
+              <ul>
+                <li>Cereals</li>
+                <li>Vegetables</li>
+                <li>Legumes</li>
+                <li>Fruits & Nuts</li>
+                <li>Livestock</li>
+                <li>Aquaculture</li>
+                <li>Plant Health</li>
+                <li>Equipment</li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-fstrow-column4">
+          <div class="footer-company">
+          <div class="fterpc4">
+              <p><span>COMPANY</span></p>
+              <hr
+                style="width:30px; margin-left :25px; margin-top:0px; height:5px; border-radius: 5px; background-color:#EDDD5E;">
+              <ul>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Join Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-fstrow-column5">
+          <div class="footer-address">
+          <div class="fterpc5">
+              <p><span>ADDRESS</span></p>
+              <hr
+                style="width:30px; margin-left:25px; margin-top:0px; height:5px; border-radius: 5px; background-color:#EDDD5E;">
+              <ul>
+                <li>32 Wilkingson Road</li>
+                <li>Clevely land</li>
+                <li>Freetown, Sierra Leone</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="whiteLine">
+        <hr style="height:3px; color: white; width: 100%">
+      </div>
+      <div class="footer-second-row">
+        <div class="fsecrow1">
+          <div class="footer-secrow-column1">
+            <p>&#64;<span>2022 hsk design</span></p>
+          </div>
+        </div>
+        <div class="ftcover">
+          <div class="fterms">
+            <p>Terms of use</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+          </div>
+        </div>
+        <div class="fsecrow2">
+          <div class="footer-secrow-column2">
+            <p><a class="footericon" href="https://www.facebook.com/"><img
+                  src="https://img.icons8.com/ios-filled/30/26e07f/facebook-new.png" /></a></p>
+            <p><a class="footericon" href="https://twitter.com/i/flow/login"><img
+                  src="https://img.icons8.com/ios-filled/30/26e07f/twitter-circled--v1.png" /></a></p>
+            <p><a class="footericon" href="https://www.linkedin.com/"><img
+                  src="https://img.icons8.com/ios-filled/30/26e07f/linkedin-circled--v1.png" /></a></p>
+            <p><a class="footericon" href="https://www.youtube.com/"><img
+                  src="https://img.icons8.com/ios-filled/30/26e07f/youtube-play.png" /></a></p>
+          </div>
+        </div>
+      </div>
+    </section>  
 </body>
 </html>

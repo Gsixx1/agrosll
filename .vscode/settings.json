@@ -15,9 +15,11 @@
         "ftcover",
         "fterms",
         "fterpc",
+        "ftheads",
         "indexcrud",
         "mystore",
         "pngss",
+        "prdcrud",
         "productscrud",
         "secrow",
         "signup",
@@ -47,6 +49,7 @@
     },
     "peacock.color": "#15265C",
     "cSpell.ignoreWords": [
-        "socils"
+        "socils",
+        "topnames"
     ]
 }

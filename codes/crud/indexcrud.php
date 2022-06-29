@@ -24,16 +24,16 @@ $user_data = check_login($con);
     <div class="fluid">
       <div class="first-nav-bar">
         <a href="#">
-          <img src="../resources/logo.png" alt="logo" class="logo" />
+          <img src="/resources/logo.png" alt="logo" class="logo" />
         </a>
         <div class="f-mid-nav">
           <div>
-            <p><img src="../resources/pngss/email-open-50.png" alt="" style="width:30px;height:30px"> <a
+            <p><img src="/resources/pngss/email-open-50.png" alt="" style="width:30px;height:30px"> <a
                 href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
                 style="list-style:none; text-decoration:none;">info@agrosl.sl</a></p>
           </div>
           <div>
-            <p><img src="../resources/pngss/ringer-volume-50.png" alt="" style="width:30px;height:30px"> <a
+            <p><img src="/resources/pngss/ringer-volume-50.png" alt="" style="width:30px;height:30px"> <a
                 href="tel:+23276458340" style="list-style:none; text-decoration:none;">+232-76-458-340</a></p>
           </div>
         </div>
@@ -46,7 +46,7 @@ $user_data = check_login($con);
           <ul>
             <li><a href="codes/topheadercomponents/blog.php">Blog</a></li>
             <li><a href="../products.php">Products</a></li>
-            <li><a href="topheadercomponents/businesses.php">Businesses</a></li>
+            <!-- <li><a href="topheadercomponents/businesses.php">Businesses</a></li> -->
           </ul>
         </div>
       </div>
@@ -85,7 +85,7 @@ $user_data = check_login($con);
             <h1 class="text-success" style="font-size:6vmax" >Welcome Admin</h1><img src="/codes/crud/pics/smile.png" alt=""style="width:70px">
         </div>
         <div class="d-flex justify-content-end">
-            <button type="submit" class="btn btn-primary"><a class="text-decoration-none text-light" href="/codes/logout.php">Logout</a></button>            
+            <button type="submit" class="btn btn-primary"><a class="text-decoration-none text-light" href="../logout.php">Logout</a></button>            
             </div>
         <div class="my-5 bg-info text-center py-2">
             <h1 class="text-dark">Do your Insertion Here.</h1>            
@@ -97,9 +97,9 @@ $user_data = check_login($con);
         <div class="mb-3">
             <input type="text" class="form-control" name="business_name" placeholder="Business Name" Autocomplete="off">
         </div>
-        <div class="mb-3">
+        <!-- <div class="mb-3">
             <input type="file" class="form-control" name="customer_image">
-        </div>
+        </div> -->
         <div class="mb-3 text-center">
             <input type="submit" class="btn btn-success"name="insert_btn" value="Insert">
         </div>

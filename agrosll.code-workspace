@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"name": "agrosll",
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"adminfunction",
+			"adminfunctions",
+			"adminlogin",
+			"adminsignup",
+			"Agro",
+			"agrosll",
+			"cpass",
+			"cpassword",
+			"dbconnection",
+			"footericon",
+			"fsecrow",
+			"fstrow",
+			"ftcover",
+			"fterms",
+			"fterpc",
+			"indexcrud",
+			"mystore",
+			"pngss",
+			"productscrud",
+			"secrow",
+			"signup",
+			"tcc4",
+			"tchpm",
+			"topheadercomponents"
+		],
+		"liveServer.settings.port": 5501,
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#1e3785",
+			"activityBar.activeBorder": "#d02f56",
+			"activityBar.background": "#1e3785",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#d02f56",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"sash.hoverBorder": "#1e3785",
+			"statusBar.background": "#15265c",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#1e3785",
+			"statusBarItem.remoteBackground": "#15265c",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#15265c",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#15265c99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#15265C",
+		"cSpell.ignoreWords": [
+			"socils"
+		]
+	}
+}

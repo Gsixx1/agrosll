@@ -3,7 +3,7 @@ session_start();
 include '/xampp/htdocs/xamppProjects/agrosll/codes/connect.php';
 $id = $_GET['id'];
 
-$select = "SELECT * FROM customers WHERE customerID = '$id'";
+$select = "SELECT * FROM customers WHERE `id` = '$id'";
 $select_q = mysqli_query($con, $select);
 $fetch = mysqli_fetch_array($select_q);
 ?>
@@ -25,10 +25,13 @@ $fetch = mysqli_fetch_array($select_q);
     <input type="text" class="form-control mb-3" name="customer_name" placeholder="customer name" value="<?php echo $fetch['customer_name'] ?>">
     <input type="text" class="form-control mb-3" name="business_name" placeholder="Business name" value="<?php echo $fetch['business_name'] ?>">
     <input type="file" class="form-control mb-2" name="customer_image"> 
-    <div class="text-center">
-    <img src="/codes/images/ <?php echo $fetch['customer_image'] ?>" alt="photo" width="70px">
+    <div class="text-center border border-secondary  ">
+    <img src="../pics/ <?php echo $fetch['customer_image'] ?>" alt="photo">
     </div> <br><br>
-    <input type="submit" name="update_btn" value="update">
+    <div class="d-flex justify-content-evenly">
+        <input type="submit" name="update_btn" value="update">
+        <button type="button" class="btn btn-primary"><a href="customers.php" class="text-light text-decoration-none " >Return</a></button>
+    </div>
 </form>
 </div>
 <?php
@@ -37,15 +40,16 @@ if (isset($_POST['update_btn'])) {
     $business_name = $_POST['business_name'];
     $customer_image = $_FILES['customer_image']['name'];
     $customer_image_tmp_name = $_FILES['customer_image']['tmp_name'];
-    $destination = "/codes/images/".$customer_image;
+    $destination = "../pics/".$customer_image;
     if ($customer_image != "") {
         move_uploaded_file($customer_image_tmp_name, $destination);
-        $update = "UPDATE customers SET customer_name = '$customer_name', business_name = '$business_name', customer_image = '$customer_image' WHERE customerID = '$id'";
+        $update = "UPDATE customers SET customer_name = '$customer_name', business_name = '$business_name', customer_image = '$customer_image' WHERE id = '$id'";
         $update_q = mysqli_query($con, $update);
         header('location: customers.php');
-    } else {
+    } 
+    else {
         move_uploaded_file($customer_image_tmp_name, $destination);
-        $update = "UPDATE customers SET customer_name = $customer_name, business_name = $business_name,  WHERE customerID = $id";
+        $update = "UPDATE customers SET customer_name = '$customer_name', business_name = '$business_name',  WHERE id = '$id' ";
         $update_q = mysqli_query($con, $update);
         header('location: customers.php');
     }

@@ -1,0 +1,73 @@
+@media only screen and (min-width:673px)and (max-width:1024px) {
+    .f-mid-nav {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .f-mid-nav-items img {
+        height: 20px;
+    }
+
+    .f-mid-nav-items a {
+        font-size: 2vmin;
+    }
+
+    .second-nav-bar ul {
+        margin-left: 0;
+    }
+
+    .second-nav-bar ul li {
+        margin: 0;
+    }
+
+    #fourth-cards {
+        background-color: #ffffff;
+        height: 130vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        padding: 4.9% 1.9%;
+        justify-content: center;
+    }
+    .pic-div {
+        background-image: url(/resources/AIMS-dron.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        height: 90%;
+        width: 35rem;
+        margin-right: 17.7rem;
+        top: 2px;
+    }
+    .fourth-carddiv1 {
+        text-align: center;
+        justify-content: center;
+        width: 15rem;
+        height: 23%;
+        background-color: #EDDD5E;
+        margin-right: .7rem;
+        position: absolute;
+        padding: .8% 1%;
+        float: bottom;
+        margin-top: 35em;
+        margin-right: 32em;
+        margin-left: 5em;
+        border-radius: 5px;
+    }
+    .fourth-carddiv2 {
+        text-align: center;
+        justify-content: center;
+        width: 28rem;
+        height: 78%;
+        margin-left: 30em;
+        margin-right: 13em;
+    }
+    .fcdiv2 h5 {
+        padding-right: 20.3em;
+        font-family: Barlow;
+        font-weight: 600;
+        line-height: .1em;
+        font-size: .9em;
+        color: #000000;
+    }
+}

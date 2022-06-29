@@ -1,0 +1,308 @@
+@media only screen and (max-width: 667px) {
+    .nav {
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #145858;
+    }
+
+    .fluid {
+        /* background-color: #A0D995; */
+        height: 65vh;
+
+    }
+
+    .first-nav-bar {
+        width: 95vw;
+        display: block;
+        height: 30vh;
+        /* background-color: rgb(249, 217, 35, .5); */
+        background-image: none;
+    }
+
+    .logo {
+        padding-top: 0.3125rem;
+        padding-bottom: 00.3125rem;
+        height: 50px;
+        /* border: 2px solid; */
+    }
+
+    .f-mid-nav {
+        display: none;
+        justify-content: center;
+        /* border: 2px solid rgb(62, 199, 8); */
+        width: 45vw;
+        text-align: center;
+    }
+
+    .f-mid-nav img {
+        height: 5px;
+    }
+
+    .f-mid-nav-items a {
+        font-size: 11px;
+    }
+
+    .tabHover {
+        display: flex;
+        /* border: 2px solid rgb(25, 44, 14); */
+        height: 20vh;
+        width: 95vw;
+        justify-content: center;
+    }
+
+    .tabHover ul {
+        /* border: 2px solid rgb(190, 24, 24); */
+        height: 12vh;
+        width: 95vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .tabHover ul li {
+        /* width: 10vw; */
+        /* border: 2px solid #dee2e6; */
+        /* height: 24px; */
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
+        text-decoration: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        /* margin-right:15px; */
+        /* padding: 0 15px; */
+    }
+
+    .tabHover ul li a {
+        /* background-color:white; */
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+        font-family: Poppins;
+    }
+
+    .second-nav-bar {
+        height: 39vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        padding-bottom: 0;
+    }
+
+    .second-nav-bar ul {
+        margin-bottom: 0;
+        justify-content: center;
+        text-align: center;
+        /* border: 2px solid #d2d8dd; */
+        margin: 0;
+        width: 95vw;
+        height: 31.5vh;
+        display: block;
+    }
+
+    .second-nav-bar ul li {
+        /* border: 2px solid ; */
+        padding: 0;
+        margin: 0;
+        margin-left: 45px;
+    }
+
+    .second-nav-bar ul li a {
+        font-size: 2.3vmax;
+    }
+
+    .lang-menu {
+        /* border: 2px solid; */
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #first-cards {
+        height: 284vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .first-cards-row1 {
+        height: 140vh;
+        display: block;
+        width: 94vw;
+    }
+
+    .first-cards-row2 {
+        height: 140vh;
+        display: block;
+        width: 94vw;
+    }
+
+    .first-card-row1-card1,
+    .first-card-row1-card2,
+    .first-card-row1-card3,
+    .first-card-row1-card4,
+    .first-card-row2-card1,
+    .first-card-row2-card2,
+    .first-card-row2-card3,
+    .first-card-row2-card4 {
+        width: 80vw;
+        margin: 8px 35px;
+    }
+
+    .first-card-row1-card1 p,
+    .first-card-row1-card2 p,
+    .first-card-row1-card3 p,
+    .first-card-row1-card4 p,
+    .first-card-row2-card1 p,
+    .first-card-row2-card2 p,
+    .first-card-row2-card3 p,
+    .first-card-row2-card4 p {
+        font-family: 'Amatic SC', cursive;
+        font-size: 8vmin;
+        font-weight: 400;
+        color: #FDFEFD;
+        text-decoration: solid;
+        height: 2em;
+    }
+
+    #second-cards {
+        display: none;
+    }
+
+    #third-cards {
+        height: 283vh;
+    }
+
+    .third-cards-cards {
+        display: block;
+        height: 280vh;
+        width: 92vw;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 18px;
+    }
+
+    .third-cards-card1,
+    .third-cards-card2,
+    .third-cards-card3,
+    .third-cards-card4 {
+        margin: 10px 27px;
+    }
+
+    .tcc1 h5,
+    .tcc2 h5,
+    .tcc3 h5,
+    .tcc4 h5 {
+        font-size: 5vmin;
+    }
+
+    .third-cards-card1 p span,
+    .third-cards-card2 p span,
+    .third-cards-card3 p span,
+    .third-cards-card4 p span {
+        font-family: 'Amatic SC';
+        font-size: 10vmin;
+        font-weight: 600;
+    }
+
+    #h {
+        font-family: 'Barlow', sans-serif;
+        font-size: 5vmin;
+        color: #5b8c51;
+        font-weight: bold;
+    }
+
+    #a {
+        font-family: 'Amatic SC';
+        font-size: 9vmin;
+        color: #000000;
+    }
+
+    p .c3 {
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        /* background-color: #130f40; */
+        width: 30%;
+    }
+
+    #fourth-cards {
+        display: none;
+    }
+    
+    .footericon img {
+        height: 2.5vh;
+    }
+
+    .footer-fstrow-column1 {
+        display: none;
+    }
+
+    .footer-fstrow-column2,
+    .footer-fstrow-column3,
+    .footer-fstrow-column4,
+    .footer-fstrow-column5
+     {
+        /* border: 1px solid; */
+        width: 16vw;
+        height: 39vh;
+    }
+
+    .footer-services,
+    .footer-products,
+    .footer-company,
+    .footer-address {
+        /* border: 1px solid yellow; */
+        width: 15vw;
+        height: 38.5vh;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .fterpc2 ul,
+    .fterpc3 ul,
+    .fterpc4 ul,
+    .fterpc5 ul
+    {
+        margin-left: 0;
+        width: 14.5vw;
+        margin-right: 10px;
+        padding: 0 auto;
+        align-items: center;
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        justify-content:center !important;
+        /* border: 1px solid; */
+        height: 25vh;
+    }
+    .fterpc2 ul li,
+    .fterpc3 ul li,
+    .fterpc4 ul li,
+    .fterpc5 ul li
+    {
+        margin-left: 0;
+        width: 14.5vw;
+        height: 15vh;
+        margin-right: 30px;
+        /* background-color:blue; */
+        /* border: 1px solid; */
+    }
+    
+    .fterpc2 p {
+        width:14.5vw ;
+    }
+    .half_line {
+        margin-right: 35px ;
+    }  
+}
